@@ -1,0 +1,56 @@
+/*** Header ***/
+.Header {
+    display: flex;
+    justify-content: center;
+
+    & img {
+        width: auto;
+        height: 100%;
+
+        @include mobile {
+            height: 50%;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 68px;
+        width: 86%;
+        margin-top: 45px;
+
+        @include mobile {
+            margin-top: 20px;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        align-items: flex-start;
+        align-items: center;
+        font-weight: 500;
+        gap: 57px;
+
+        @include mobile {
+            gap: 26px;
+        }
+
+        & a {
+            font-size: 24px;
+            color: $color-purple;
+
+            @include mobile {
+                font-size: 12px;
+            }
+        }
+
+        @include mobile {
+            text-transform: uppercase;
+        }
+
+        & a:focus {
+            text-decoration-line: underline;
+        }
+    }
+}

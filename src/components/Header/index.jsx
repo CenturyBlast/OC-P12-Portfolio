@@ -6,11 +6,12 @@ export default function Header() {
     return (
         <header className="Header">
             <div className="Header__content">
-                <img src={icon_large} alt="pochette de documents" />
-                <nav className='Header__nav'>
-                    <h1>Maxime Chambon, Intégrateur Web, vous salue !</h1>
+                <Link to="/">
+                    <img src={icon_large} alt="pochette de documents" />
+                </Link>
+                <nav>
                     <Link to="/" className="Home-link">Expérience</Link>
-                    <Link to="/about" className="About">Biographie</Link>
+                    <Link to="/about" className="Bio-link">Biographie</Link>
                 </nav>
             </div>
         </header>

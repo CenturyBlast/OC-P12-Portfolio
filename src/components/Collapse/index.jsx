@@ -8,10 +8,9 @@ export default function Collapse({ title, content }) {
 
     return (
         <div className="Collapse" >
-            <h3 className='Collapse__title'>
+            <h3 className='Collapse__title' onClick={() => setToggle(!toggle)}>
                 {title}
                 <img
-                    onClick={() => setToggle(!toggle)}
                     className={toggle ? 'Arrow Arrow__up' : 'Arrow Arrow__down'}
                     src={collArrow}
                     alt="contenu visible"

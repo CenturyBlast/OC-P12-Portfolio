@@ -10,7 +10,7 @@
     }
 
     & h1 {
-        color: $color-purple;
+        color: $color-main-text;
         font-size: 288px;
         font-weight: 700;
         margin: 139px auto 0;
@@ -22,7 +22,7 @@
     }
 
     & h2 {
-        color: $color-purple;
+        color: $color-main-text;
         font-size: 36px;
         font-weight: 500;
         margin: 139px auto 0;
@@ -35,7 +35,7 @@
     }
 
     &__back-home {
-        color: $color-purple;
+        color: $color-main-text;
         font-size: 18px;
         font-weight: 500;
         text-decoration-line: underline;

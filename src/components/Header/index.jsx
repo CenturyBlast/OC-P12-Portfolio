@@ -5,7 +5,7 @@ import icon_large from '../../data/portfolio_icon_large.png'
 export default function Header() {
     return (
         <header className="Header">
-            <div className="Header__content">
+            <div className="Header_content">
                 <Link to="/">
                     <img src={icon_large} alt="pochette de documents" />
                 </Link>

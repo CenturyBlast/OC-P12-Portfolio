@@ -33,7 +33,7 @@ export default function Rental() {
                     <h1 className='Rental__infos_title'>{dataRental.title}</h1>
                     <div className='Rental__infos_location'>
                         <img src={github_logo} alt="github" />
-                        <a href={dataRental.location}>Voir ce projet sur GitHub</a>
+                        <a href={dataRental.location} target='blank' rel='noopener'>Voir ce projet sur GitHub</a>
                     </div>
                 </div>
             </div>

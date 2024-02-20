@@ -5,10 +5,12 @@
     align-items: center;
     position: relative;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 86%;
     height: 415px;
-    border-radius: 25px;
+    border: 3px solid $color-secondary-text;
+    border-radius: 15px;
     margin: 0 auto;
 
     @include mobile {

@@ -2,22 +2,81 @@
 .Home {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 50px auto;
 
     @include mobile {
         margin: 25px auto;
     }
 
-    &__cardlist {
+    &_presentation {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        width: 86%;
+
+        &_name {
+            display: flex;
+            font-style: italic;
+            font-size: 24px;
+            font-weight: 700;
+            color: $color-secondary-text;
+        }
+
+        &_portrait {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-top: 38px;
+
+            & img {
+                width: 30%;
+                height: auto;
+                border-radius: 250px;
+                object-fit: cover;
+
+                @include mobile {
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+    &_contact {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        & img {
+            height: 42px;
+        }
+
+        &_cta {
+            font-size: 24px;
+            font-style: italic;
+            color: $color-main-text;
+            font-weight: 500;
+
+            @include mobile {
+                font-size: 12px;
+            }
+        }
+    }
+
+    &_cardlist {
+        display: flex;
+        justify-content: flex-start;
         box-sizing: border-box;
+        flex-wrap: wrap;
         width: 86%;
         height: auto;
         border-radius: 25px;
         padding: 56px 50px 43px;
         margin: 43px auto 0px;
-        gap: 35px;
+        gap: 60px 50px;
         background-color: $color-home-cardlist;
 
         @include mobile {

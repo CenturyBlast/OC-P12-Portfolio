@@ -1,27 +1,29 @@
-import Collapse from '../../components/Collapse'
-import aboutImg from '../../data/max_sails_lighter.JPG'
-import '../../sass/main.css'
+import Collapse from '../../components/Collapse';
+import '../../sass/main.css';
 
 export default function About() {
     return (
         <div className='About'>
-            
-            <div className="About__banner">
-                <img src={aboutImg} alt='Maxime sur un bateau' className='About__banner_img' />
-            </div>
 
             <div className="About__collapse-container">
                 <Collapse
-                    title="Projet professionnel"
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat."
-                />
-                <Collapse
                     title="Formation"
-                    content="Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-                    officia deserunt mollit anim id est laborum."
+                    content="Je termine actuellement la certification professionnelle « Développeur intégrateur web » via l'organisme 
+                    OpenClassrooms. Durant un an, j'ai réalisé des projets professionnels axés sur les langages clients HTML et 
+                    CSS ainsi que sur l'écosystème Javascript."
+                />
+
+                <Collapse
+                    title="Carrière antérieure"
+                    content="Durant 12 ans, j'ai exercé le métier de charpentier-couvreur.
+                    D'abord apprenti puis ouvrier qualifié, j'ai collaboré avec plusieurs entreprises basées en Savoie et en Isère. 
+                    Je suis resté plus de 6 ans chez mon dernier employeur.
+                    Je suis titulaire d'un Brevet Pro Charpentier bois consécutif au CAP du même nom ainsi que d'un titre de 
+                    technicien en performance énergétique du bâtiment.
+                    La réalisation de maisons individuelles en ossature bois, la réfection de toiture et l'isolation thermique 
+                    à base de matériaux écologiques étaient mon cœur de métier.
+                    Les qualités humaines et savoirs-être acquis durant cette période de ma vie sont le travail en équipe, 
+                    la rigueur, l'observation et la communication verbale client-collaborateurs."
                 />
             </div>
 

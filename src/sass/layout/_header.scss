@@ -3,48 +3,49 @@
     display: flex;
     justify-content: center;
 
-    & img {
-        width: auto;
-        height: 96px;
-
-        @include mobile {
-            height: 62px;
-        }
-    }
-
-    &__content {
+    &_content {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 68px;
         width: 86%;
-        font-weight: 500;
+        height: 68px;
         margin-top: 45px;
 
         @include mobile {
             margin-top: 20px;
         }
 
-        & a {
-            font-size: 24px;
-            color: $color-main-text;
+        & img {
+            width: auto;
+            height: 96px;
 
             @include mobile {
-                font-size: 12px;
+                height: 62px;
             }
-        }
-
-        @include mobile {
-            text-transform: uppercase;
-        }
-
-        & a:focus {
-            text-decoration-line: underline;
         }
 
         & nav {
             display: flex;
-            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            font-weight: 500;
+
+            & a {
+                font-size: 24px;
+                color: $color-main-text;
+
+                @include mobile {
+                    font-size: 12px;
+                }
+            }
+
+            @include mobile {
+                text-transform: uppercase;
+            }
+
+            & a:focus {
+                text-decoration-line: underline;
+            }
         }
     }
 }

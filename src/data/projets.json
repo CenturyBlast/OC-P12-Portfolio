@@ -2,46 +2,54 @@
 	{
 		"id": "c67ab8a7",
 		"title": "Portfolio de Sophie Bluel - Architecte",
-		"cover": "https://zupimages.net/up/24/07/jgao.jpeg",
+		"cover": "https://zupimages.net/up/24/07/6xuw.png",
 		"pictures": [
 			"https://zupimages.net/up/24/07/aq3o.png",
 			"https://zupimages.net/up/24/07/6xuw.png",
-			""
+			"https://zupimages.net/up/24/07/rdz1.png",
+			"https://zupimages.net/up/24/07/xdq4.png",
+			"https://zupimages.net/up/24/07/bkkz.png"
 		],
 		"description": "A compléter",
 		"location": "https://github.com/CenturyBlast/OC-P6-Portfolio_Sophie_Bluel",
 		"skills": [
-			"A compléter",
-			""
+			"Réaliser un formulaire de connexion utilisateur",
+			"Mettre en place des filtres pour une galerie d'images",
+			"Rédiger des requêtes vers une base de données d'images"
 		]
 	},
 	{
 		"id": "b9123946",
 		"title": "Argent Bank - Banque en ligne",
-		"cover": "https://zupimages.net/up/24/07/jgao.jpeg",
+		"cover": "https://zupimages.net/up/24/08/k51v.png",
 		"pictures": [
-			"https://zupimages.net/up/24/07/aq3o.png",
-			"https://zupimages.net/up/24/07/6xuw.png",
-			""
+			"https://zupimages.net/up/24/08/61op.png",
+			"https://zupimages.net/up/24/08/87we.png",
+			"https://zupimages.net/up/24/08/k51v.png",
+			"https://zupimages.net/up/24/08/cpcv.png",
+			"https://zupimages.net/up/24/08/bqes.png"
 		],
 		"description": "A compléter",
-		"location": "https://github.com/CenturyBlast/OC-P6-Portfolio_Sophie_Bluel",
+		"location": "https://github.com/CenturyBlast/OC-P11-ArgentBank",
 		"skills": [
-			"A compléter",
+			"Migrer un projet HTML + CSS vers une structure React + Sass ",
 			""
 		]
 	},
 	{
 		"id": "46d188c5",
 		"title": "ohMyFood - Réservations au restaurant",
-		"cover": "https://zupimages.net/up/24/07/jgao.jpeg",
+		"cover": "https://zupimages.net/up/24/08/3rau.png",
 		"pictures": [
-			"https://zupimages.net/up/24/07/aq3o.png",
-			"https://zupimages.net/up/24/07/6xuw.png",
-			""
+			"https://zupimages.net/up/24/08/3rau.png",
+			"https://zupimages.net/up/24/08/m2m5.png",
+			"https://zupimages.net/up/24/08/rqel.png",
+			"https://zupimages.net/up/24/08/2oue.png",
+			"https://zupimages.net/up/24/08/uaji.png",
+			"https://zupimages.net/up/24/08/by48.png"
 		],
 		"description": "A compléter",
-		"location": "https://github.com/CenturyBlast/OC-P6-Portfolio_Sophie_Bluel",
+		"location": "https://github.com/CenturyBlast/OC-P4-Ohmyfood",
 		"skills": [
 			"A compléter",
 			""
@@ -50,14 +58,17 @@
 	{
 		"id": "7af00cd6",
 		"title": "Kasa - Location immobilière",
-		"cover": "https://zupimages.net/up/24/07/jgao.jpeg",
+		"cover": "https://zupimages.net/up/24/08/15ae.png",
 		"pictures": [
-			"https://zupimages.net/up/24/07/aq3o.png",
-			"https://zupimages.net/up/24/07/6xuw.png",
-			""
+			"https://zupimages.net/up/24/08/tj90.png",
+			"https://zupimages.net/up/24/08/u2cp.png",
+			"https://zupimages.net/up/24/08/15ae.png",
+			"https://zupimages.net/up/24/08/4xvp.png",
+			"https://zupimages.net/up/24/08/7zts.png",
+			"https://zupimages.net/up/24/08/sztg.png"
 		],
 		"description": "A compléter",
-		"location": "https://github.com/CenturyBlast/OC-P6-Portfolio_Sophie_Bluel",
+		"location": "https://github.com/CenturyBlast/OC-P8-Kasa",
 		"skills": [
 			"A compléter",
 			""
@@ -66,14 +77,17 @@
 	{
 		"id": "0979876d",
 		"title": "Booki - Réservations d'hébergement",
-		"cover": "https://zupimages.net/up/24/07/jgao.jpeg",
+		"cover": "https://zupimages.net/up/24/08/cgri.png",
 		"pictures": [
-			"https://zupimages.net/up/24/07/aq3o.png",
-			"https://zupimages.net/up/24/07/6xuw.png",
-			""
+			"https://zupimages.net/up/24/08/hets.png",
+			"https://zupimages.net/up/24/08/2i58.png",
+			"https://zupimages.net/up/24/08/1zrg.png",
+			"https://zupimages.net/up/24/08/xodl.png",
+			"https://zupimages.net/up/24/08/cgri.png",
+			"https://zupimages.net/up/24/08/bscn.png"
 		],
 		"description": "A compléter",
-		"location": "https://github.com/CenturyBlast/OC-P6-Portfolio_Sophie_Bluel",
+		"location": "https://github.com/CenturyBlast/OC-P3-Booki_V2",
 		"skills": [
 			"A compléter",
 			""

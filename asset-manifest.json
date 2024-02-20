@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/OC-P12-Portfolio/static/css/main.ddf8dcfd.css",
+    "main.js": "/OC-P12-Portfolio/static/js/main.81741348.js",
+    "static/media/max_sails_lighter.JPG": "/OC-P12-Portfolio/static/media/max_sails_lighter.3cf5b36d197489e97d3b.JPG",
+    "static/media/Id_max.jpg": "/OC-P12-Portfolio/static/media/Id_max.07ec75a3722fb62ca152.jpg",
+    "index.html": "/OC-P12-Portfolio/index.html",
+    "main.ddf8dcfd.css.map": "/OC-P12-Portfolio/static/css/main.ddf8dcfd.css.map",
+    "main.81741348.js.map": "/OC-P12-Portfolio/static/js/main.81741348.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddf8dcfd.css",
+    "static/js/main.81741348.js"
+  ]
+}

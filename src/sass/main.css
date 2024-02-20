@@ -33,7 +33,7 @@ a {
 }
 @media (max-width: 426px) {
   .Collapse__title {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 .Collapse__title .Arrow {
@@ -59,13 +59,13 @@ a {
   opacity: 1;
   height: auto;
   padding: 20px;
-  font-size: 16px;
+  font-size: 18px;
   color: #8956d6;
   transition: visibility 0.5s ease-in-out, height 0.2s ease-in-out, opacity 0.5s ease-in-out;
 }
 @media (max-width: 426px) {
   .Collapse__content {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .Collapse__content_hidden {
@@ -374,6 +374,7 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 86%;
+  max-width: 1440px;
   height: 68px;
   margin-top: 45px;
 }
@@ -403,7 +404,7 @@ a {
 }
 @media (max-width: 426px) {
   .Header_content nav a {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (max-width: 426px) {
@@ -452,7 +453,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px auto;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1440px;
 }
 @media (max-width: 426px) {
   .Home {
@@ -463,21 +466,50 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 86%;
 }
-.Home_presentation_name {
-  display: flex;
+.Home_presentation h1,
+.Home_presentation h2 {
   font-style: italic;
   font-size: 24px;
   font-weight: 700;
   color: #6222bf;
+}
+@media (max-width: 426px) {
+  .Home_presentation h1,
+  .Home_presentation h2 {
+    font-size: 20px;
+  }
+}
+.Home_presentation h3 {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 700;
+  color: #6222bf;
+}
+@media (max-width: 426px) {
+  .Home_presentation h3 {
+    font-size: 16px;
+  }
+}
+.Home_presentation p {
+  width: 86%;
+  font-size: 18px;
+  color: #6222bf;
+}
+@media (max-width: 426px) {
+  .Home_presentation p {
+    font-size: 14px;
+  }
 }
 .Home_presentation_portrait {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 38px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .Home_presentation_portrait img {
   width: 30%;
@@ -497,6 +529,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  margin-bottom: 20px;
 }
 .Home_contact img {
   height: 42px;
@@ -504,12 +537,12 @@ a {
 .Home_contact_cta {
   font-size: 24px;
   font-style: italic;
-  color: #8956d6;
+  color: #6222bf;
   font-weight: 500;
 }
 @media (max-width: 426px) {
   .Home_contact_cta {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .Home_cardlist {
@@ -521,7 +554,7 @@ a {
   height: auto;
   border-radius: 25px;
   padding: 56px 50px 43px;
-  margin: 43px auto 0px;
+  margin: 20px auto 0px;
   gap: 60px 50px;
   background-color: #F6F6F6;
 }

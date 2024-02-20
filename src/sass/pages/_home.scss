@@ -18,6 +18,22 @@
         align-items: center;
         width: 86%;
 
+        &_icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px auto;
+            gap: 10px;
+
+            @include mobile {
+                margin: 5px auto;
+            }
+
+            & img {
+                height: 40px;
+            }
+        }
+
         & h1,
         h2 {
             font-style: italic;
@@ -45,6 +61,7 @@
             width: 86%;
             font-size: 18px;
             color: $color-secondary-text;
+            text-align: center;
 
             @include mobile {
                 font-size: 14px;

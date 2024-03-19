@@ -5,7 +5,7 @@ import cardData from '../../data/projets.json';
 import mail_logo from '../../data/mail_grad.png';
 import linkedin_logo from '../../data/linkedin_grad.png';
 import github_logo from '../../data/github_grad.png';
-import aboutImg from '../../data/max_sails_lighter.JPG';
+import aboutImg from '../../data/id_max_2024.png';
 import vscode_logo from '../../data/vscode_grad.png';
 import html_logo from '../../data/html_grad.png';
 import css_logo from '../../data/css_grad.png';
@@ -27,7 +27,7 @@ export default function Home() {
         <h1>Maxime Chambon - Intégrateur web</h1>
 
         <div className="Home_presentation_portrait">
-          <img src={aboutImg} alt='Maxime sur un bateau' />
+          <img src={aboutImg} alt='Maxime souriant' />
         </div>
 
         <p>
@@ -37,7 +37,7 @@ export default function Home() {
           Je suis <strong>intégrateur web</strong> et <strong>développeur front-end</strong>.<br />
           <br />
 
-          Bientôt titulaire d'une <strong>certification professionnelle</strong> réalisée avec OpenClassrooms,
+          Titulaire d'une <strong>certification professionnelle</strong> réalisée avec OpenClassrooms,
           je tâche de rester en pointe sur les technologies <strong>web et mobile</strong> afin
           d'offrir aux utilisateurs une <strong>expérience numérique</strong> agréable, intuitive et orientée
           vers la <strong>résolution</strong> de leurs objectifs.
@@ -124,7 +124,7 @@ export default function Home() {
             </a>
           </div>
           <div>
-            <a href='https://www.linkedin.com/in/maxime-chambon-aa296a238/' target='blank' rel='noopener' aria-label='linkedin'>
+            <a href='https://www.linkedin.com/in/maximechambon/' target='blank' rel='noopener' aria-label='linkedin'>
               <img src={linkedin_logo} alt='linkedin' />
             </a>
           </div>

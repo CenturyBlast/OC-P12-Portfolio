@@ -8,8 +8,8 @@ export default function About() {
             <div className="About__collapse-container">
                 <Collapse
                     title="Formation"
-                    content="Je termine actuellement la certification professionnelle « Développeur intégrateur web » via l'organisme 
-                    OpenClassrooms. Durant un an, j'ai réalisé des projets professionnels axés sur les langages clients HTML et 
+                    content="Titulaire d'une certification professionnelle « Développeur intégrateur web » 
+                    reconnue Bac +2 et délivrée par l'organisme OpenClassrooms. Durant un an, j'ai réalisé des projets professionnels axés sur les langages clients HTML et 
                     CSS ainsi que sur l'écosystème Javascript."
                 />
 
